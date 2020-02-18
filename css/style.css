@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* variables */
+:root {
+  --primary: #f1823b;
+  --primary-light: #f59921;
+  --white: #fff;
+  --black: #000;
+  --light: #ddd;
+  --dark: #333;
+}
+/* default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+}
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  color: var(--black);
+  background-color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+a {
+  cursor: pointer;
+}
+a:hover {
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.3rem;
+  background-color: none;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 1rem;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  /*transition: opacity 0.2s ease-in;
+  outline: none;*/
+}
+.btn:hover {
+  color: #222;
+  background-color: var(--secondary);
+}
+/* mobile */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+.contact-baner {
+  padding: 30px 20px;
+  width: 100%;
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-around;
+}
+.contact-baner p {
+  font-size: 0.7rem;
+  color: var(--white);
+}
+.contact-baner p i {
+  color: var(--primary-light);
+}
+#nav-section {
+  padding: 30px 20px;
+  background-color: cadetblue;
+}
+.menu {
+  display: none;
+}
+.logo {
+  grid-column: 1/6;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.contact-info {
+  display: none;
+}
+/* carousel section */
+#carousel-section {
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+}
+.img-align-center {
+  height: 30vh;
+}
+.img-align-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* small tablets */
+@media screen and (max-width: 620px) {
+  html {
+    font-size: 16px;
+  }
+}
+/* large tablets and laptops */
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 18px;
+  }
+}
+/* desktops */
+@media screen and (max-width: 1200) {
+  html {
+    font-size: 20px;
+  }
+}
