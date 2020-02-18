@@ -73,7 +73,7 @@ a:hover {
   justify-content: space-around;
 }
 .contact-baner p {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--white);
 }
 .contact-baner p i {
@@ -81,7 +81,6 @@ a:hover {
 }
 #nav-section {
   padding: 30px 20px;
-  background-color: cadetblue;
 }
 .menu {
   display: none;
@@ -112,7 +111,33 @@ a:hover {
   height: 100%;
   object-fit: cover;
 }
+/* doswiadczenie section */
+#doswiadczenie-section {
+  padding: 30px 20px;
+  background-color: coral;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
 
+.doswiadczenie-text h1 {
+  margin-bottom: 35px;
+}
+.doswiadczenie-text p {
+  margin-bottom: 35px;
+  font-size: medium;
+}
+.doswiadczenie-card {
+  padding: 30px 20px;
+}
+.doswiadczenie-card h1 {
+  padding-bottom: 5px;
+}
+.doswiadczenie-card h4 {
+}
+.doswiadczenie-card i {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
 /* small tablets */
 @media screen and (max-width: 620px) {
   html {
