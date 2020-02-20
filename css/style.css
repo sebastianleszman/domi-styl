@@ -114,7 +114,7 @@ a:hover {
 /* carousel section */
 #carousel-section {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding: 0;
 }
 .carousel-slider {
@@ -216,6 +216,19 @@ a:hover {
 .map-text {
   line-height: 2rem;
   text-align: center;
+}
+/* footer */
+footer {
+  width: 100%;
+  background-color: var(--dark);
+  color: var(--white);
+  grid-template-columns: 1fr;
+}
+.footer-text-col {
+  text-align: center;
+}
+.footer-text-col h4 {
+  color: var(--primary-light);
 }
 /* small tablets */
 @media screen and (max-width: 620px) {
