@@ -3,9 +3,9 @@
 /* variables */
 :root {
   --primary: #f1823b;
-  --primary-light: rgba(245, 153, 33, 0.6);
-  --primary-old: #f59921;
-  --primary-bg: rgba(245, 153, 33, 0.1);
+  --primary-light: #f59921;
+  --primary-bg: rgba(245, 153, 33, 0.6);
+  --primary-bg-light: rgba(245, 153, 33, 0.1);
   --white: #fff;
   --black: #000;
   --light: #ddd;
@@ -155,12 +155,12 @@ a:hover {
 .opinion-hero {
   padding: 30px 20px;
   text-align: center;
-  background-color: var(--primary-light);
+  background-color: var(--primary-bg);
 }
 .opinion-panel {
   padding: 30px 20px;
   text-align: center;
-  background-color: var(--primary-bg);
+  background-color: var(--primary-bg-light);
 }
 .name {
   margin-bottom: 30px;
