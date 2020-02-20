@@ -30,6 +30,12 @@ li {
   padding: 0;
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-size: normal;
+}
 body {
   color: var(--black);
   background-color: var(--white);
@@ -196,7 +202,21 @@ a:hover {
   margin-bottom: 2rem;
   background-color: var(--white);
 }
-
+/* map section */
+#map-section {
+  grid-template-columns: 1fr;
+  padding: 0;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+#map {
+  height: 30vh;
+  width: 100%;
+}
+.map-text {
+  line-height: 2rem;
+  text-align: center;
+}
 /* small tablets */
 @media screen and (max-width: 620px) {
   html {
