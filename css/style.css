@@ -68,6 +68,14 @@ a:hover {
   color: #222;
   background-color: var(--secondary);
 }
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid var(--primary);
+  color: #f2f2f2;
+}
 /* mobile */
 .grid {
   display: grid;
@@ -217,17 +225,43 @@ a:hover {
   line-height: 2rem;
   text-align: center;
 }
+/* contact */
+#contact-section {
+  padding: 30px 20px;
+  background-color: var(--primary-bg);
+  margin-bottom: 2rem;
+}
+#contact-section h3,
+#contact-section p {
+  text-align: center;
+  margin-bottom: 0;
+}
+#contact-section form {
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+#contact-section input,
+#contact-section textarea {
+  width: 100%;
+  margin: 10px 0;
+}
+#contact-section .btn {
+  margin-top: 10px;
+}
 /* footer */
 footer {
   width: 100%;
   background-color: var(--dark);
   color: var(--white);
-  grid-template-columns: 1fr;
+  padding: 30px 20px;
 }
 .footer-text-col {
   text-align: center;
+  margin: 1rem;
 }
-.footer-text-col h4 {
+.footer-text-col h3 {
   color: var(--primary-light);
 }
 /* small tablets */
