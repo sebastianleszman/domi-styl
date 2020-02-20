@@ -120,9 +120,12 @@ textarea {
 .logo img {
   width: 80%;
   height: 100%;
+  margin: auto;
   object-fit: contain;
 }
 .logo h1 {
+  text-align: center;
+  margin: auto;
   font-family: 'Great Vibes', cursive;
 }
 .contact-info {
