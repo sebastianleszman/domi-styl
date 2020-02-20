@@ -73,6 +73,7 @@ a:hover {
   padding: 30px 20px;
   width: 100%;
   background-color: var(--black);
+  color: var(--white);
   display: flex;
   justify-content: space-around;
 }
