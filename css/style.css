@@ -94,12 +94,12 @@ textarea {
   justify-content: space-around;
 }
 .contact-baner p {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   color: var(--white);
 }
 .contact-baner p i {
   color: var(--primary-light);
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 10px;
   position: relative;
   top: 4px;
@@ -113,19 +113,21 @@ textarea {
   display: none;
 }
 .logo {
-  display: flex;
-  flex-wrap: wrap;
-  grid-column: 1/6;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  grid-column: 2/11;
+  gap: 0;
 }
 .logo img {
   width: 80%;
   height: 100%;
-  margin: auto;
+  grid-column: 1/7;
   object-fit: contain;
 }
 .logo h1 {
   text-align: center;
   margin: auto;
+  grid-column: 7/13;
   font-family: 'Great Vibes', cursive;
 }
 .contact-info {
@@ -155,7 +157,7 @@ textarea {
 
 /* doswiadczenie section */
 #doswiadczenie-section {
-  padding: 30px 20px;
+  padding: 50px 20px;
   grid-template-columns: 1fr;
   text-align: center;
   background-image: url(../asets/tlo-szafka.jpg);
@@ -236,6 +238,7 @@ textarea {
   width: 100%;
 }
 .map-text {
+  padding: 30px 20px;
   line-height: 2rem;
   text-align: center;
 }
