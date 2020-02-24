@@ -334,6 +334,13 @@ footer {
   html {
     font-size: 18px;
   }
+  #contact-baner {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  #contact-baner span {
+    font-size: 1rem;
+  }
 }
 /* desktops */
 @media screen and (max-width: 1200) {
