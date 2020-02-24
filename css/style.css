@@ -13,6 +13,7 @@
   --black: #000;
   --light: #ddd;
   --dark: #333;
+  --gray: #707070;
 }
 /* default styling */
 * {
@@ -150,6 +151,25 @@ textarea {
   object-fit: contain;
 }
 
+/* info section */
+#info-section {
+  padding: 40px 30px 20px;
+  text-align: center;
+}
+
+#info-section > * {
+  margin-bottom: 35px;
+}
+
+#info-section h1 {
+  line-height: 1.1;
+}
+
+#info-section p {
+  color: var(--gray);
+  line-height: 1.2;
+}
+
 /* doswiadczenie section */
 #doswiadczenie-section {
   padding: 40px 30px 20px;
@@ -163,12 +183,10 @@ textarea {
   background-blend-mode: screen;
 }
 .doswiadczenie-text {
-  font-size: 16pt;
   margin-bottom: 35px;
 }
 .doswiadczenie-text h1 {
   margin-bottom: 35px;
-  font-size: 32px;
   line-height: 1.1;
   color: var(--primary-light);
 }
