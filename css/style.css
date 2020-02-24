@@ -113,21 +113,16 @@ textarea {
   display: none;
 }
 .logo {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  grid-column: 2/11;
-  gap: 0;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 .logo img {
-  width: 80%;
-  height: 100%;
-  grid-column: 1/7;
+  width: 100%;
+  height: 8vh;
   object-fit: contain;
 }
 .logo h1 {
   text-align: center;
-  margin: auto;
-  grid-column: 7/13;
   font-family: 'Great Vibes', cursive;
 }
 .contact-info {
@@ -157,7 +152,7 @@ textarea {
 
 /* doswiadczenie section */
 #doswiadczenie-section {
-  padding: 50px 20px;
+  padding: 40px 30px 20px;
   grid-template-columns: 1fr;
   text-align: center;
   background-image: url(../asets/tlo-szafka.jpg);
@@ -168,21 +163,25 @@ textarea {
   background-blend-mode: screen;
 }
 .doswiadczenie-text {
-  padding: 30px 20px;
+  font-size: 16pt;
+  margin-bottom: 35px;
 }
 .doswiadczenie-text h1 {
-  margin-bottom: 10px;
+  margin-bottom: 35px;
+  font-size: 32px;
+  line-height: 1.1;
   color: var(--primary-light);
 }
 .doswiadczenie-text p {
-  font-size: 0.8rem;
+  font-size: 18px;
+  line-height: 1.2;
 }
 .doswiadczenie-card {
-  padding: 10px 20px;
+  margin-bottom: 40px;
 }
 .doswiadczenie-card i {
   color: var(--primary-light);
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 15px;
 }
 /* opinion hero section */
@@ -241,6 +240,7 @@ textarea {
   padding: 30px 20px;
   line-height: 2rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 /* contact */
 #contact-section {
@@ -261,6 +261,7 @@ textarea {
 #contact-section input,
 #contact-section textarea {
   width: 100%;
+  color: var(--black);
   margin: 10px 0;
 }
 #contact-section .btn {
