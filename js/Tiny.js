@@ -41,27 +41,3 @@ let trust = tns({
   prevButton: false,
   nextButton: false
 });
-
-let opinion = tns({
-  items: 1,
-  controls: false,
-  arrowKeys: false,
-  container: '.opinion-slider',
-  swipeAngle: false,
-  speed: 1000,
-  mouseDrag: true,
-  slideBy: 1,
-  gutter: 0,
-  autoplay: true,
-  autoplayHoverPause: false,
-  preventActionWhenRunning: true,
-  autoplayTimeout: 1500,
-  autoplayButtonOutput: false, // hides autoplay buttons
-  nav: false, //hides navbar which is almost transparent
-  autoplayText: ['▶', '❚❚'],
-  autoHeight: true,
-  fixedWidth: true,
-  autoWidth: true,
-  prevButton: false,
-  nextButton: false
-});

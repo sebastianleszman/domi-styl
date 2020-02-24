@@ -269,6 +269,7 @@ textarea {
 #map {
   height: 30vh;
   width: 100%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
 }
 .map-text {
   line-height: 2rem;
@@ -319,6 +320,13 @@ footer {
 @media screen and (max-width: 620px) {
   html {
     font-size: 16px;
+  }
+  #contact-baner {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  #contact-baner span {
+    font-size: 1rem;
   }
 }
 /* large tablets and laptops */
