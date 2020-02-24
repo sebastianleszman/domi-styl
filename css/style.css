@@ -269,7 +269,7 @@ textarea {
 /* map section */
 #map-section {
   grid-template-columns: 1fr;
-  padding: 0;
+  padding: 40px 30px 20px;
   background-color: #fff;
 }
 #map {
