@@ -39,5 +39,13 @@ let trust = tns({
   autoplayText: ['▶', '❚❚'],
   autoHeight: true,
   prevButton: false,
-  nextButton: false
+  nextButton: false,
+  responsive: {
+    620: {
+      items: 2
+    },
+    1200: {
+      items: 4
+    }
+  }
 });
