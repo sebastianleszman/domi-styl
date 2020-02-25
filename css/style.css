@@ -352,6 +352,18 @@ footer {
   color: var(--primary-light);
 }
 @media (max-height: 480px) {
+  #contact-baner-section {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  #contact-baner-section > * {
+    justify-self: center;
+  }
+  /* carousel section */
+  .img-align-center {
+    height: 100vh;
+  }
   /* gallery section */
   #gallery-section {
     gap: 0;
