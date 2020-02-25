@@ -101,11 +101,28 @@ textarea {
   font-size: 1rem;
   margin-right: 1rem;
 }
+
+/* nav-section */
 #nav-section {
   padding: 20px 0;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
 }
 .menu {
-  display: none;
+  padding: 0 20px;
+  font-size: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+.menu a {
+  text-align: center;
+  color: var(--primary);
+}
+.menu a:hover {
+  color: var(--black);
 }
 .logo {
   gap: 1rem;
@@ -120,9 +137,6 @@ textarea {
   text-align: center;
   font-size: 2rem;
   font-family: 'Great Vibes', cursive;
-}
-.contact-info {
-  display: none;
 }
 /* carousel section */
 #carousel-section {
@@ -289,7 +303,6 @@ textarea {
   grid-template-columns: 1fr;
   gap: 0;
   font-size: 1rem;
-  line-height: 1.1;
   width: 100%;
   padding: 0;
 }
@@ -346,6 +359,7 @@ footer {
 }
 .footer-text-col {
   text-align: center;
+  line-height: 1.2;
   margin: 1rem;
 }
 .footer-text-col h3 {
@@ -399,6 +413,7 @@ footer {
   /* nav section */
   #nav-section {
     padding: 30px 0;
+    gap: 2rem;
   }
   .logo {
     gap: 1.5rem;
@@ -411,7 +426,7 @@ footer {
   }
   /* carousel section */
   .img-align-center {
-    height: 40vh;
+    height: 50vh;
   }
 }
 /* large tablets and laptops */
