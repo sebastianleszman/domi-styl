@@ -5,19 +5,14 @@ let carousel = tns({
   container: '.carousel-slider',
   swipeAngle: false,
   speed: 1000,
-  mouseDrag: true,
   slideBy: 1,
   gutter: 0,
   autoplay: true,
   autoplayHoverPause: false,
   preventActionWhenRunning: true,
   autoplayTimeout: 4000,
-  autoplayButtonOutput: false, // hides autoplay buttons
-  nav: false, //hides navbar which is almost transparent
-  autoplayText: ['▶', '❚❚'],
-  autoHeight: true,
-  prevButton: false,
-  nextButton: false
+  autoplayButtonOutput: false,
+  nav: false
 });
 
 let trust = tns({
@@ -27,7 +22,6 @@ let trust = tns({
   container: '.trust-slider',
   swipeAngle: false,
   speed: 1000,
-  mouseDrag: true,
   slideBy: 1,
   gutter: 10,
   autoplay: true,
@@ -37,9 +31,6 @@ let trust = tns({
   autoplayButtonOutput: false, // hides autoplay buttons
   nav: false, //hides navbar which is almost transparent
   autoplayText: ['▶', '❚❚'],
-  autoHeight: true,
-  prevButton: false,
-  nextButton: false,
   responsive: {
     620: {
       items: 2
@@ -58,7 +49,6 @@ function initMap() {
     zoom: 15,
     center: melgiew
   });
-
   // The marker
   let marker = new google.maps.Marker({ position: melgiew, map: map });
 }
