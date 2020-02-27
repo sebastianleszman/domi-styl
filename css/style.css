@@ -102,8 +102,8 @@ textarea {
   margin-right: 1rem;
 }
 
-/* nav-section */
-#nav-section {
+/* header-section */
+#header-section {
   padding: 20px 0;
   grid-template-columns: 1fr;
   gap: 1.2rem;
@@ -410,8 +410,8 @@ footer {
   #contact-baner-section span i {
     font-size: 1.5rem;
   }
-  /* nav section */
-  #nav-section {
+  /* header section */
+  #header-section {
     padding: 30px 0;
     gap: 2rem;
   }
