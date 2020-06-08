@@ -779,7 +779,7 @@ footer {
     gap: 10px;
     grid-template-columns: 1fr;
     justify-items: center;
-    background-color: var(--silver);
+    background-color: var(--white) !important;
   }
   .title-panel {
     width: 100%;
